@@ -1,0 +1,20 @@
+inoremap ctrl-c <ESC>
+inoremap fd <ESC>
+set nu rnu
+set surround
+
+map <Space>xm      :action SearchEverywhere<CR>
+map <Space>ci      :action CommentByLineComment<CR>
+map <Space>fs      :action SaveAll<CR>
+map <Space>ff      :action FindInPath<CR>
+map <Space>ss      :action Find<CR>
+map <Space>fp      :action CopyPaths<CR>
+map <Space>rr      :action RecentFiles<CR>
+map <Space>gf      :action GotoFile<CR>
+map <Space>gs      :action GotoSymbol<CR>
+map <Space>gc      :action GotoClass<CR>
+map <Space><Space> :action GotoAction<CR>
+map <Space>q       :action Exit<CR>
+map <Space>wh      :action HideAllWindows<CR>
+map <Space>fu      :action ShowUsages<CR>
+
