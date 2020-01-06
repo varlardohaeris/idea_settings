@@ -18,3 +18,5 @@ map <Space>q       :action Exit<CR>
 map <Space>wh      :action HideAllWindows<CR>
 map <Space>fu      :action ShowUsages<CR>
 
+nnoremap <Space>gg            :action GenerateGetterAndSetter<CR>
+nmap     <Space>tt            :action FileStructurePopup<CR>
