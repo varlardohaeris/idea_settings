@@ -20,3 +20,5 @@ map <Space>fu      :action ShowUsages<CR>
 map <Space>rf      :action ReformatCode<CR>
 map <space>oi      :action OptimizeImports<CR>
 
+nnoremap <Space>gg            :action GenerateGetterAndSetter<CR>
+nmap     <Space>tt            :action FileStructurePopup<CR>
