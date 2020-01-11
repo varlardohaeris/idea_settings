@@ -17,4 +17,6 @@ map <Space><Space> :action GotoAction<CR>
 map <Space>q       :action Exit<CR>
 map <Space>wh      :action HideAllWindows<CR>
 map <Space>fu      :action ShowUsages<CR>
+map <Space>rf      :action ReformatCode<CR>
+map <space>oi      :action OptimizeImports<CR>
 
